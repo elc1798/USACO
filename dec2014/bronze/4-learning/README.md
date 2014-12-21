@@ -67,7 +67,7 @@ SAMPLE OUTPUT:
 
 I didn't solve this one due to time constraints, but this is as far as I got:
 
-`
+	```java
 	import java.util.Scanner;
 	import java.io.PrintWriter;
 	import java.io.File;
@@ -125,5 +125,5 @@ I didn't solve this one due to time constraints, but this is as far as I got:
 		}
 
 	}
-
+	```
 `
