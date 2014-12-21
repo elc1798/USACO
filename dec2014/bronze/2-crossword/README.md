@@ -32,28 +32,33 @@ are assigned numbers.
 For example, consider the grid, where '.' indicates a clear cell and
 '#' a blocked cell.
 
-...
-#..
-...
-..#
-.##
-
+    ```
+    ...
+    #..
+    ...
+    ..#
+    .##
+    ```
 Cells that can begin a horizontal or vertical clue are marked with !
 below:
 
-!!!
-#..
-!..
-..#
-.##
+    ```
+    !!!
+    #..
+    !..
+    ..#
+    .##
+    ```
 
 If we assign numbers to these cells, we get the following;
 
-123
-#..
-4..
-..#
-.##
+    ```
+    123
+    #..
+    4..
+    ..#
+    .##
+    ```
 
 Note that crossword described in the input data may not satisfy
 constraints typically seen in published crosswords.  For example, some
@@ -71,12 +76,14 @@ blocked cell).
 
 SAMPLE INPUT:
 
-5 3
-...
-#..
-...
-..#
-.##
+    ```
+    5 3
+    ...
+    #..
+    ...
+    ..#
+    .##
+    ```
 
 ## Output Format
 
@@ -90,11 +97,13 @@ cell has position (1, 1).  The bottom right cell has position (N, M).
 
 SAMPLE OUTPUT: 
 
-4
-1 1
-1 2
-1 3
-3 1
+    ```
+    4
+    1 1
+    1 2
+    1 3
+    3 1
+    ```
 
 ## Solution (Java)
 
