@@ -1,0 +1,9 @@
+hoagie,hero
+hero,hoagie
+salty,upset
+sprinkles,jimmies
+identity,identity
+,emptystring
+insrtion,insertion
+swap,sawp
+rotation,ionrotat

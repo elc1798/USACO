@@ -1,0 +1,28 @@
+Joe 20 1.0 1.5 0.5
+H H H H H H H
+Rocky 50 1.0 1.0 1.0
+J J J J J J J
+Foreman 10 1.0 0.5 1.5
+U U U U U U U
+Ali 10 1.5 1.0 0.5
+J J J J J J J
+Joe 20 1.1 1.0 0.9
+H H J U U H
+Don 20 1.0 1.1 0.9 
+J U H H J U
+Jake 50 2 1 2
+J J J U H H J
+Max 30 1 3 1
+H H J J H H U
+Joe 20 3 0.5 0.5
+J J J J J J J J
+Bob 5 1 2 1
+H H H H H H H H
+Jim 1 10 0.1 0.1
+J J
+Pete 20 10 10 10
+U U
+Jim 19 1 1 1
+U U U U
+Pete 20 1 1 1
+U U U U

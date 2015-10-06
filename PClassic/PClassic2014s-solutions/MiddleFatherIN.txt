@@ -1,0 +1,5 @@
+Franklin 76 Jefferson 56 Adams 57
+Franklin 76 Jefferson 56 Adams 57 Lee 60 Hancock 75
+Franklin 76 Jefferson 56 Adams 57 Morris 56 Rutledge 76
+Franklin 76
+Lafayette 18 Monroe 18 Stuart 20 Burr 20 Hamilton 21 Ross 24 Madison 25 Jefferson 33 Adams 40 Revere 41 Washington 44 SAdams 43 Franklin 70
