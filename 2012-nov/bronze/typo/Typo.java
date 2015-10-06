@@ -16,7 +16,8 @@ public class Typo {
 	public static void readFile() throws IOException {
 		fin = new Scanner(new File("typo.in"));
 		line = fin.nextLine();
-		fin = null;
+		fin.close();
+        fin = null;
 	}
 
 	public static void outFile() throws IOException {
@@ -32,18 +33,27 @@ public class Typo {
 		if (line.length() % 2 == 1) {
 			return -1;
 		}
-		String temp = "" + line;
-		for (int i = 0; i < line.length(); i++) {
-			if (i < line.length() / 2) {
-				if (!line.substring(i , i + 1).equals("(")) {
-					toReturn++;
-				}
-			} else {
-				if (!line.substring(i , i + 1).equals(")")) {
-					toReturn++;
-				}
-			}
-		}
+        System.out.println(line);
+        for (int k = 0; k < line.length(); k++) {
+            String trial = line;
+            if (line.charAt(k) == '(') {
+                trial = line.substring(0 , k) + ')' + line.substring(k + 1);
+            } else {
+                trial = line.substring(0 , k) + '(' + line.substring(k + 1);
+            }
+            int removals = 0;
+            System.out.println(trial);
+		    for (int i = 0; i < trial.length(); i++) {
+                if (trial.charAt(i) == '(') {
+                    removals++;
+                } else {
+                    removals--;
+                }
+            }
+            if (removals == 0) {
+                toReturn++;
+            }
+        }
 		return toReturn;
 	}
 
