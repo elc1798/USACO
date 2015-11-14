@@ -1,0 +1,22 @@
+1 2
+rhodium
+beryllium
+rhodium
+3 14
+beryllium
+gallium
+rhodium
+beryllium
+bismuth
+germanium
+gold
+indium
+mercury
+osmium
+palladium
+platinum
+rhenium
+rhodium
+ruthenium
+silver
+tellurium
