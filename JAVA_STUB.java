@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.PrintWriter;
 import java.io.IOException;
 
-public class SAMPLE {
+public class Stub {
 
     private static String INPUT = "";
     private static String OUTPUT = "";

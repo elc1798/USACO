@@ -1,0 +1,18 @@
+Part 1:
+
+Open the 'in.in' file and in Vim, run:
+
+:%s/(//gn
+
+The above gives the number of open parens
+
+:%s/)//gn
+
+The above gives the number of close parens
+
+Just subtract the two numbers to get 138
+
+Part 2:
+
+Run main.c
+
